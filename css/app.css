@@ -8,10 +8,37 @@ h1, h2, h3, h4, h5, h6, p, textarea, a, button, input, body, select {
 
 @media (min-width: 1200px) {
     .mx-md-newnav {
-        margin-left: 13rem !important;
-        margin-right:13rem !important;
+    margin-left: 13rem !important;
+    margin-right:13rem !important;
     }
-  }
+}
+
+.navbar-skin{
+    background-color: #333 !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+}
+
+.navbar.navbar-skin .navbar-toggler-icon {
+    cursor: pointer;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")
+}
+
+.enkanta-text{
+    color: #19b4d8;
+}
+.enkanta-bg{
+    background-color: #19b4d8;
+}
+
+.enkanta-btn {
+    color: #fff !important;
+    background-color: #19b4d8 !important;
+}
+
+.navbar-skin a:hover{
+    text-decoration: underline !important;
+}
 
 .nav-top {
     margin-top: 70px;
@@ -109,13 +136,16 @@ h1, h2, h3, h4, h5, h6, p, textarea, a, button, input, body, select {
     display: none;
 }
 
+.bs-none{
+    box-shadow: none !important;
+}
 @media (min-width: 992px) {
     .dn-responsive {
         display: none;
     }
     .myclase3{
         width: 400px;
-}
+    }
 }
 @media (max-width: 992px) {
     .dm-responsive {
@@ -123,34 +153,94 @@ h1, h2, h3, h4, h5, h6, p, textarea, a, button, input, body, select {
     }
 }
 
+/* Filter */
+
+.filtr{
+}
+
+.container-f {
+    overflow: hidden;
+  }
+  
+  .filterDiv {
+    float: left;
+    color: #333;
+    line-height: 1rem;
+    text-align: center; 
+    cursor: pointer;
+    display: none; /* Hidden by default */
+  }
+
+  .filterDiv:hover{
+      text-decoration: underline;
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .btn-f {
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+  
+  /* Add a light grey background on mouse-over */
+  .btn-f:hover {
+    color: #333;
+    background-color: #f5f5f5;
+    /* text-decoration: underline; */
+  }
+
+  .btn-f:focus{
+    -webkit-focus-ring-color;
+    outline-style: auto;
+    outline-width: 0 !important;
+    border-radius: 0;
+  }
+  
+  /* Add a dark background to the active button */
+  .btn-f.active {
+    background-color: #f5f5f5;
+    color: 333;
+  }
+
+/* Filter */
+
 /* Neewsletter */
+
 .newsletter {
 padding: 0 0;
 }
 
-.newsletter .content-new {
-max-width: 650px;
+.newsletter {
+max-width: 50rem;
 text-align: center;
 position: relative;
-z-index: 2; }
+z-index: 2; 
+}
 
-.newsletter .content-new h2 {
+.newsletter h2 {
 color: #333;
 margin-bottom: 10px; 
 }
 
-.newsletter .content-new .form-control {
-    min-height: 38px;
+.newsletter .form-control {
+    min-height: 40px;
     border-color: #ffffff;
     border-radius:0;
 }
 
-.newsletter .content-new .form-control:focus {
+.newsletter .form-control:focus {
 box-shadow: none;
 border: 1px solid #333;
 }
 
-.newsletter .content-new .btn-new {
+.newsletter .btn-new {
 margin: 0;
 min-height: 38px; 
 border-radius:0;
@@ -179,7 +269,7 @@ box-shadow: none;
     transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
 }
 
-.newsletter .content-new .btn-new:hover{
+.newsletter .btn-new:hover{
     text-decoration: underline;
 }
 /* Neewsletter */

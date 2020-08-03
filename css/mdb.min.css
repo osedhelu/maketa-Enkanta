@@ -12757,11 +12757,11 @@ select:disabled {
     padding: 0;
     margin: 1rem 0 0
 }
-/* hover de las sub categorias de la barra de navegacion */
+/* barra de navegacion vertical hover de las sub categorias */
 .side-nav .collapsible li a:hover {
     text-decoration: underline;
 }
-/* hover active de la barra de navegacion */
+/* barra de navegacion vertical hover active  */
 .side-nav .collapsible>li a.collapsible-header.active,
 .side-nav .collapsible>li a.collapsible-header:hover {
     text-decoration: underline;
@@ -12771,7 +12771,7 @@ select:disabled {
     padding: 0;
     list-style-type: none
 }
-/* botones de la barra de navegacion */
+/* barra de navegacion botones */
 .side-nav .collapsible a {
     height: 36px;
     font-size: .9rem;
@@ -12787,7 +12787,7 @@ select:disabled {
     font-size: .8rem
 }
 
-/* Barra de navegacion Hover active */
+/* Barra de navegacion vertical Hover active */
 .side-nav .collapsible-body a {
     height: 25px;
     /* padding-left: 5px; */
@@ -12795,7 +12795,7 @@ select:disabled {
     /* background-color: rgba(0, 0, 0, .15) */
 }
 
-/* Barra de navegacion */
+/* Barra de navegacion Vertical */
 .side-nav a {
     display: block;
     height: 56px;
@@ -13840,11 +13840,6 @@ ul.stepper li.completed a .white-skin .circle {
     text-decoration: underline;
 }
 
-.white-skin .navbar .navbar-nav .nav-item a,
-.white-skin .navbar.double-nav a {
-    color: #424242
-}
-
 .white-skin .navbar form .md-form .form-control {
     font-weight: 300;
     color: #424242
@@ -13990,7 +13985,7 @@ ul.stepper li.completed a .white-skin .circle {
 .white-skin .side-nav .collapsible li .collapsible-body a .fas {
     color: #424242
 }
-/* Color del sub categorias de la barra de navegacion */
+/* Barra de navegacion verticalColor de las sub categorias */
 .white-skin .side-nav .collapsible li a:not(.collapsible-header) {
     color: #333333;
     transition: all .3s linear
@@ -19466,7 +19461,7 @@ input[type=range].no-border {
 
 /* barra de navegacion megamenu proporciones de las secciones */
 .navbar .dropdown-menu.mega-menu.v-2 a {
-    padding: 5px 0 0 0
+    padding: 0 0 0 0
 }
 
 /* Barra de navegacion megamenu seccion de promociones */
